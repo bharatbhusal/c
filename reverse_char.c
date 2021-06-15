@@ -1,11 +1,11 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
     char arr1[] = {'a', 'b', 'c', 'd', 'e', 'f', 'g'};
-    char arr2[sizeof(arr1)/sizeof(char)] = {};
+    char arr2[sizeof(arr1) / sizeof(char)] = {};
     int i;
-    int size1 = ((sizeof(arr1))/(sizeof(char)));
-    int size2 = ((sizeof(arr2))/(sizeof(char)));
+    int size1 = ((sizeof(arr1)) / (sizeof(char)));
+    int size2 = ((sizeof(arr2)) / (sizeof(char)));
 
     for (i = 0; i < size1; i++)
     {

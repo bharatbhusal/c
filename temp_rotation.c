@@ -30,5 +30,4 @@ int main()
     {
         printf("arr[%d]: %d\n", m, arr1[m]);
     }
-    /*i changed this*/
 }

@@ -2,7 +2,7 @@
 int main()
 {
     int i, range, digits, fact, j, strong, temp, k;
-    range = 1000000000;
+    range = 100000;
     for (i = 1; i <= range; i++)
     {
         strong = 0;
