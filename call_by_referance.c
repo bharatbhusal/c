@@ -1,9 +1,9 @@
 #include <stdio.h>
 void swap(int *x, int *y)
 {
-    int *temp = *x;
+    int **temp = &x;
     *x = *y;
-    *y = temp;
+    *y = **temp;
 }
 
 void main()
